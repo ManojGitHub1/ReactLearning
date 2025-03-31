@@ -1,13 +1,14 @@
 import { useState } from 'react'
-import Demo from './demo'
+import Counter from './counter'
 
 function App() {
+  const username = 'Manoj jivanagi';
 
   return (
     // react fragment return multiple elements
     <>
-    <Demo />
-    <h1>Hello World!</h1>
+    <Counter />
+    <h1>Hello World! {username}</h1>
     </>
   )
 }
